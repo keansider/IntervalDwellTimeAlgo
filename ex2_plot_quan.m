@@ -37,7 +37,7 @@ figure;
 hold on;
 lift = out.gamma.signals.values ./ 0.98;
 h1 = plot(out.gamma.time, lift, '-', 'Color', '#7A378A', 'LineWidth', 1, 'DisplayName', '$\frac{\int^{\infty}_{0}||\tilde{z}(t)||_1dt}{\int^{\infty}_{0}||\omega(t)||_1dt}$');
-h2 = plot([0 15], [0.6312 0.6312], '-.', 'Color', '#E84446', 'LineWidth', 1, 'DisplayName', '$\overline{\gamma}$');
+h2 = plot([0 15], [0.6312 0.6312], '-.', 'Color', '#E84446', 'LineWidth', 1, 'DisplayName', '$\gamma$');
 axis([0 15 0 0.8]);
 xt = get(gca, 'XTick');
 yt = get(gca, 'YTick');

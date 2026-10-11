@@ -7,7 +7,7 @@ function [result, flag] = solve_fmincon_ex1(lambda, tmin, xi, divide_number, mod
 
 t1 = tic;
 
-%% 辅助矩阵
+%% 0
 
 w = ones(2, 1);
 r = ones(2, 1);
